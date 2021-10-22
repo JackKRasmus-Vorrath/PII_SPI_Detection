@@ -27,10 +27,20 @@ import keras
 from keras import backend as K
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-from keras.models import Model, Input, load_model
-from keras.layers import Embedding, Conv1D, LSTM, Bidirectional, Dense
-from keras.layers import Masking, MaxPooling1D, SpatialDropout1D, BatchNormalization
+from keras.callbacks import (EarlyStopping, 
+			     ModelCheckpoint)
+from keras.models import (Model, 
+			  Input, 
+			  load_model)
+from keras.layers import (Embedding, 
+			  Conv1D, 
+			  LSTM, 
+			  Bidirectional, 
+			  Dense)
+from keras.layers import (Masking, 
+			  MaxPooling1D, 
+			  SpatialDropout1D, 
+			  BatchNormalization)
 
 #########################################################################################################################
 
